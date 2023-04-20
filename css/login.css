@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  background: url('../img/login_bg.jpg') no-repeat;
+  background-size: cover;
+}
+
+.loginPage {
+  width: 502px;
+  height: 388px;
+  background-color: aliceblue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginPage .pic {
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.reg-box {
+  display: none;
+}
+
+.layui-form {
+  padding: 0 30px;
+}
+
+.link {
+  text-align: right;
+}
+
+/* 定位 */
+.layui-form-item {
+  position: relative;
+}
+
+.layui-form-item i {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  font-size: 17px;
+}
+
+.layui-btn {
+  height: 49px;
+  font-size: 18px;
+}
+
+/* 文本框左边距离 */
+.layui-input {
+  padding-left: 32px;
+  height: 49px;
+}
