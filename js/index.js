@@ -16,15 +16,15 @@ function fn () {
   $.ajax({
     method: 'GET',
     url: '/my/userinfo',
-
     success: function (res) {
       console.log(res);
       if (res.status !== 0) {
         return layui.layer.msg('获取信息失败');
       }
+
       readeruser(res.data)
     }
-   
+
   })
 }
 //渲染用户信息
